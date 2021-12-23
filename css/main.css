@@ -32,6 +32,10 @@
   border: 0;
 }
 
+.logoFont{
+  font-family: 'Press Start 2P', cursive;
+}
+
 /* Body */
 body {
   background-color: #fff;

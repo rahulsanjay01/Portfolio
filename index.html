@@ -28,21 +28,28 @@
   <link id="color-scheme" rel="stylesheet" href="/css/colors/main-red.css">
   <!-- Custom CSS (Add your custom CSS styles to this file)-->
   <link rel="stylesheet" href="/css/custom.css">
+
+  <!-- "Press Start 2P" font from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <!-- Preloader-->
   <div class="preloader">
     <div class="preloader-block">
-      <div class="preloader-icon"><span class="loading-dot loading-dot-1"></span><span class="loading-dot loading-dot-2"></span><span class="loading-dot loading-dot-3"></span></div>
+      <div class="preloader-icon"><img src="img/Mark.svg" class="d-inline-block align-text-top" width="100" height="94"><span class="loading-dot loading-dot-1"></span><span class="loading-dot loading-dot-2"></span><span class="loading-dot loading-dot-3"></span></div>
     </div>
   </div>
   <div class="main-wrapper">
     <!-- Sidebar-->
     <header>
       <div class="fixed-top mobile-navbar d-lg-none p-0 ">
+        
         <nav class="navbar mt-1">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobileNavbarSupportedContent" aria-controls="mobileNavbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="nav-btn">Menu</span></button>
+           <!-- Hamburger Menu implemented here as an svg found on icons8.com-->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobileNavbarSupportedContent" aria-controls="mobileNavbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="nav-btn"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24"viewBox="0 0 24 24"style=" fill:#000000;"><path d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z"></path></svg></span></button>
           <img src="/img/mark.svg" width="46" height="34" class="mr-1">
           <div class="collapse navbar-collapse order-1" id="mobileNavbarSupportedContent">
             <ul class="navbar-nav mr-auto"></ul>
@@ -74,8 +81,8 @@
         <div class="container h-100">
           <div class="row h-100 align-items-center justify-content-center">
             <div class="col-12 col-lg-8 home-content text-center">
-              <h1 class="home-name">Rahul <span>Ahir</span></h1>
-              <h4 class="cd-headline clip home-headline"><span class="cd-words-wrapper single-headline"><b class="is-visible">.NET Developer</b><b>C# Developer</b><b>Web Developer</b><b>Full-Stack Developer</b><b>Software Engineer</b><b>Information Systems Graduate</b></span></h4>
+              <h1 class="home-name logoFont">Rahul Ahir</h1>
+              <h4 class="cd-headline clip home-headline"><span class="cd-words-wrapper single-headline"><b class="is-visible">.NET Developer</b><b>C# Developer</b><b>Web Developer</b><b>Full-Stack Developer</b><b>Software Engineer</b><b>IS Graduate</b></span></h4>
             </div><a href="#about-area" data-scroll>
               <div class="home-mouse">
                 <div class="mouse-shape">
@@ -114,18 +121,18 @@
                       <p>Rahul Ahir</p>
                     </div>
                     <div class="col-12 col-md-6 single-info"><span>Email:</span>
-                      <p><a href="mailto:daniel@example.com">rahul_ahir@csu.fullerton.edu</a></p>
+                      <p><a href="mailto:rahul_ahir@csu.fullerton.edu">rahul_ahir@csu.fullerton.edu</a></p>
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-12 col-md-6 single-info"><span>Age:</span>
-                      <p>21</p>
+                    <div class="col-12 col-md-6 single-info"><span>Education:</span>
+                      <p>Information Systems</p>
                     </div>
                     <div class="col-12 col-md-6 single-info"><span>From:</span>
                       <p>Greater Los Angeles Area, CA</p>
                     </div>
                   </div>
-                </address><a class="btn content-download button-main button-scheme" href="#0" role="button">Download CV</a><a class="btn content-work button-main" data-scroll="" href="#portfolio-area" role="button">My Work</a>
+                </address><a class="btn content-download button-main button-scheme" href="#0" role="button">Resume</a><a class="btn content-work button-main" data-scroll="" href="#portfolio-area" role="button">My Work</a>
               </div>
             </div>
           </div>
@@ -192,8 +199,8 @@
       <section class="single-section element-cover-bg hire-area" id="hire-area" style="background-image:url(/img/hire.jpg)">
         <div class="container">
           <div class="row row-custom">
-            <div class="col-12 col-md-8 content-part">
-              <h1 class="hire-title">Let's work together!</h1>
+            <div class="col-12 col-md-8 content-part"> 
+              <h1 class="hire-title"><img src="img/Mark.svg" class="d-inline-block align-text-" width="100" height="94"> Let's work together!</h1>
               <p class="hire-description">I am available for freelance projects. Hire me and get your project done.</p>
             </div>
             <div class="col-12 col-md-4 button-part"><a class="btn hire-btn button-main button-scheme" data-scroll="" href="#contact-area" role="button">Hire me</a></div>
@@ -624,17 +631,13 @@
       <footer class="footer-area single-section">
         <div class="container">
           <div class="row contact-info">
-            <div class="col-12 col-sm-4">
+            <div class="col-12 col-sm-6">
               <div class="single-info"><i class="info-icon icon ion-md-map"></i>
-                <p class="info-content"><a href="https://www.google.com/maps/place/Anaheim,+CA/@33.8348463,-117.9412551,13.06z/data=!4m5!3m4!1s0x80dcd6f98055e867:0x1ab89ab9a2bb160!8m2!3d33.8365932!4d-117.9143012" target="_blank">Anaheim, CA, United States.</a></p>
+                <p class="info-content"><a href="https://www.google.com/maps/place/Anaheim,+CA/@33.8348463,-117.9412551,13.06z/data=!4m5!3m4!1s0x80dcd6f98055e867:0x1ab89ab9a2bb160!8m2!3d33.8365932!4d-117.9143012" target="_blank">Anaheim, CA, US</a></p>
               </div>
             </div>
-            <div class="col-12 col-sm-4">
-              <div class="single-info"><i class="info-icon icon ion-md-call"></i>
-                <p class="info-content"><a href="tel:+441632967704">+44 1632 967704</a></p>
-              </div>
-            </div>
-            <div class="col-12 col-sm-4">
+            
+            <div class="col-12 col-sm-6">
               <div class="single-info"><i class="info-icon icon ion-md-send"></i>
                 <p class="info-content"><a href="mailto:rahul_ahir@csu.fullerton.edu">rahul_ahir@csu.fullerton.edu</a></p>
               </div>
