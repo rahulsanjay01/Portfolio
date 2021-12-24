@@ -81,6 +81,13 @@ a:focus {
   text-decoration: none;
 }
 
+
+.zoom:hover {
+  transform: scale(1.1); /* (110% zoom) */
+}
+
+
+
 hr {
   border-top: 3px solid #e6e6e6;
   margin: 0;
