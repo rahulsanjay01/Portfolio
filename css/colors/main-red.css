@@ -190,12 +190,12 @@ a.text-custom:focus {
 
 /*----------- Globals -----------*/
 ::-moz-selection {
-  background-color: #dc3545;
+  background-color: #32A956;
   color: #fff;
 }
 
 ::selection {
-  background-color: #dc3545;
+  background-color: #32A956;
   color: #fff;
 }
 
@@ -205,7 +205,7 @@ a:not(.btn) {
 
 a:not(.btn):hover,
 a:not(.btn):focus {
-  color: #a71d2a;
+  color: #87ceeb;
 }
 
 .color-scheme {
@@ -241,7 +241,7 @@ a:not(.btn):focus {
 
 /*----------- Sidebar -----------*/
 .sidebar .sidebar-menu .list-menu .nav-link.active {
-  color: #dc3545;
+  color: #87cefa;
 }
 
 /*----------- Home -----------*/
@@ -251,7 +251,7 @@ a:not(.btn):focus {
 
 /*----------- About -----------*/
 .about-area .about-content .content-subtitle {
-  color: #dc3545;
+  color: #000000;
 }
 
 /*----------- Services -----------*/
@@ -276,7 +276,7 @@ a:not(.btn):focus {
 
 /*----------- Testimonials -----------*/
 .testimonials-area .single-review .review-icon {
-  color: #dc3545;
+  color: #000000;
 }
 
 /*----------- Blog -----------*/
